@@ -29,9 +29,6 @@ namespace winrt::WinUI_001::implementation
         int32_t MyProperty();
         void MyProperty(int32_t value);
 
-       // void RecursiveFileFunction(std::filesystem::directory_iterator DirectoryIterator);
-
-        // To do: use UWP api methods like in test.
         winrt::Windows::Foundation::IAsyncAction MainWindow::myButton_Click(Windows::Foundation::IInspectable const& sender, Microsoft::UI::Xaml::RoutedEventArgs const& args);
 
         winrt::Windows::Foundation::IAsyncAction myButton2_Click(Windows::Foundation::IInspectable const& sender, Microsoft::UI::Xaml::RoutedEventArgs const& args);
